@@ -38,7 +38,20 @@ const config = {
       {
         test: /\.svg$/,
         exclude: /(node_modules|bower_components)/,
-        loaders: ['svg-inline-loader', path.join(__dirname, 'loaders', 'my-custom-svg-loader.js')]
+        use: [
+          {
+            loader: path.join(__dirname, 'loaders', 'my-custom-svg-loader.js')
+          },
+          {
+            loader: 'svgo-loader',
+            options: {
+              plugins: [
+                {removeTitle: true},
+                {convertPathData: false}
+              ]
+            }
+          }
+        ]
       },
       {
         test: /\.css$/,

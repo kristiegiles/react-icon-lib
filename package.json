@@ -57,6 +57,7 @@
     "glamor": "2.20.40",
     "glamorous": "4.8.0",
     "prop-types": "^15.5.10",
-    "react": "^15.6.1"
+    "react": "^15.6.1",
+    "svgo-loader": "1.2.1"
   }
 }
