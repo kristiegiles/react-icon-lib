@@ -1,8 +1,8 @@
-import React from 'react';
+import React from 'react'
 //import glamorous from 'glamorous'
-import classnames from 'classnames';
+import classnames from 'classnames'
 import './Icon.css';
-import iconMap from './IconMap';
+import iconMap from './IconMap'
 
 // const IconSvg = glamorous.svg(
 // 	{
