@@ -1,11 +1,10 @@
-import React from 'react';
-import Icon from './Icon';
+import React from 'react'
+import Icon from './Icon'
 import './IconDocs.css'
-import iconMap from './IconMap'
 
-const fileList = require.context('./icons', true, /[\s\S]*$/);
+const fileList = require.context('./icons', true, /[\s\S]*$/)
 const iconDocs = fileList.keys().map((filename) => {
-	let slug = filename.replace('./', '').replace('.svg', '');
+	let slug = filename.replace('./', '').replace('.svg', '')
 	return (
 		<div className="demo-block" key={slug}>
 			<Icon slug={slug}/>
