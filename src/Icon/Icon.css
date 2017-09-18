@@ -1,8 +1,7 @@
 .icon{
-	width: 1.2em;
-	height: 1.2em;
+	width: 1em;
+	height: 1em;
 	fill: currentColor;
-	vertical-align: -0.24em;
 }
 
 .icon--red{
@@ -21,3 +20,4 @@
 .u-margin-left{
   margin-left: 5px;
 }
+
