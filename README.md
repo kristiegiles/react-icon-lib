@@ -35,7 +35,7 @@ Or the docs like this:
 <IconDocs/>
 ```
 
-And then to add/change the icons, just drag save them into the `src/Icon/icons` directory as a 24px by 24px SVG.
+And then to add/change the icons, just save them into the `src/Icon/icons` directory as a 24px by 24px SVG.
 
 For a demo "other project" that imports this lib see my [svg-demo-project-react](https://github.com/kristiegiles/svg-demo-project-react) repos.
 
